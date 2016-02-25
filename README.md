@@ -1,4 +1,4 @@
-# esb-connector-proworkflow
+### ProWorkflow ESB Connector
 The ProWorkflow connector allows you to access the ProWorkflow REST API through the WSO2 ESB. ProWorkflow is a fast and easy to use project management and time tracking solution.
 
 ###Build
