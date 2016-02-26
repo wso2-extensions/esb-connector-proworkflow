@@ -46,7 +46,7 @@ public class ProworkflowConnectorIntegrationTest extends ConnectorIntegrationTes
    @BeforeClass(alwaysRun = true)
    public void setEnvironment() throws Exception {
    
-      init("proworkflow-connector-1.0.0");
+      init("proworkflow-connector-1.0.1-SNAPSHOT");
       
       esbRequestHeadersMap = new HashMap<String, String>();
       apiRequestHeadersMap = new HashMap<String, String>();
