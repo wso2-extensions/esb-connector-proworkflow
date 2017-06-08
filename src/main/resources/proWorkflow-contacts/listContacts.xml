@@ -115,7 +115,7 @@
                }
                if (apiFieldsParams != null && apiFieldsParams != "") {
                   //Remove unwanted pipe characters at the end
-                  urlQuery += 'apifields=' + apiFieldsParams.substring(0, apiFieldsParams.length - 2) + '&';
+                  urlQuery += 'apifields=' + apiFieldsParams.toString().substring(0, apiFieldsParams.length() - 2) + '&';
                }
             }
             if (apiFieldsMode != null && apiFieldsMode != "") {
@@ -176,7 +176,7 @@
                urlQuery += 'sortorder=' + sortOrder + '&';
             }
             if (urlQuery != '') {
-               mc.setProperty("uri.var.urlQuery", '?' + urlQuery.substring(0, urlQuery.length-1));
+               mc.setProperty("uri.var.urlQuery", '?' + urlQuery.toString().substring(0, urlQuery.length()-1));
             }            
          ]]>
       </script>
