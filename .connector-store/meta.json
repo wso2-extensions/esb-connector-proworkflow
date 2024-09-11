@@ -4,7 +4,7 @@
     "category": "Issue Tracking and Project Management",
     "documentationUrl": "https://docs.wso2.com/display/ESBCONNECTORS/ProWorkflow+Connector",
     "description": "The ProWorkflow connector allows you to access the ProWorkflow REST API through the WSO2 ESB. ProWorkflow is a fast and easy to use project management and time tracking solution.\n",
-    "status": "Active",
+    "status": "Inactive",
     "labels": [
         "connector"
     ],
